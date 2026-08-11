@@ -1,0 +1,20 @@
+{
+  "name": "Maker School LMS",
+  "short_name": "Maker School",
+  "description": "Learning workspace Maker School dengan struktur course dari Google Drive.",
+  "lang": "id-ID",
+  "dir": "ltr",
+  "start_url": "/maker-school/",
+  "scope": "/maker-school/",
+  "display": "standalone",
+  "background_color": "#f7f4ed",
+  "theme_color": "#1c1c1c",
+  "icons": [
+    {
+      "src": "/maker-school/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

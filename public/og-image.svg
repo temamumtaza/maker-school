@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Maker School Learning Workspace</title>
+  <desc id="desc">Learning workspace Maker School dengan struktur course dari Google Drive.</desc>
+  <rect width="1200" height="630" fill="#f7f4ed"/>
+  <rect x="64" y="64" width="1072" height="502" rx="28" fill="#fcfbf8" stroke="#dedbd3" stroke-width="2"/>
+  <rect x="64" y="64" width="22" height="502" rx="11" fill="#1c1c1c"/>
+  <text x="124" y="142" fill="#77736c" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" letter-spacing="4">MAKER SCHOOL</text>
+  <text x="124" y="244" fill="#1c1c1c" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700">Learning</text>
+  <text x="124" y="320" fill="#1c1c1c" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="700">Workspace</text>
+  <text x="124" y="382" fill="#77736c" font-family="Arial, Helvetica, sans-serif" font-size="24">Course → Bab → Subbab → Video</text>
+  <rect x="124" y="458" width="520" height="12" rx="6" fill="#e5e1d8"/>
+  <rect x="124" y="458" width="184" height="12" rx="6" fill="#1c1c1c"/>
+  <text x="1062" y="478" text-anchor="end" fill="#1c1c1c" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700">234 VIDEO LESSONS</text>
+</svg>

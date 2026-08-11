@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://temamumtaza.github.io/maker-school/sitemap.xml
