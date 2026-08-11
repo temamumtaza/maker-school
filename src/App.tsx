@@ -829,10 +829,6 @@ function LessonPage() {
           <div className="lesson-actions"><button className={`button ${complete ? "button-complete" : "button-dark"}`} onClick={() => toggleComplete(lesson.id)}>{complete ? <CheckCircle2 size={17} /> : <Check size={17} />}{complete ? "Tandai belum selesai" : "Tandai selesai"}</button><span className="action-hint">Progress tersimpan otomatis di browser ini.</span></div>
           <div className="lesson-pagination"><LessonPager lesson={previous} direction="previous" /><LessonPager lesson={next} direction="next" /></div>
         </div>
-        <aside className="lesson-aside">
-          <div className="aside-card"><span className="eyebrow">Dalam bab ini</span><h3>{chapter.title}</h3><ProgressBar value={getChapterProgress(chapter, progress)} /><div className="aside-progress-copy"><strong>{getChapterProgress(chapter, progress)}%</strong><span>{chapter.lessons.filter((item) => isLessonComplete(progress, item.id)).length}/{chapter.lessons.length} topik</span></div><Link className="text-link" to={`/bab/${chapter.id}`}>Lihat daftar topik <ArrowRight size={15} /></Link></div>
-          <div className="aside-card aside-card-muted"><span className="eyebrow">Detail</span><DetailRow label="Format" value={lesson.format} /><DetailRow label="Status" value={complete ? "Selesai" : "Belum mulai"} /><DetailRow label="Penyimpanan" value="Local browser" /></div>
-        </aside>
       </div>
       {chapter.materials.length > 0 && <MaterialsPanel materials={chapter.materials} compact />}
     </div>
@@ -954,10 +950,6 @@ function MaterialsPanel({ materials, compact = false }: { materials: Material[];
 
 function StatusPill({ complete }: { complete: boolean }) {
   return <span className={`status-pill${complete ? " is-complete" : ""}`}>{complete ? <CheckCircle2 size={15} /> : <Circle size={15} />}{complete ? "Selesai" : "Belum mulai"}</span>;
-}
-
-function DetailRow({ label, value }: { label: string; value: string }) {
-  return <div className="detail-row"><span>{label}</span><strong>{value}</strong></div>;
 }
 
 function SectionHeader({ eyebrow, title, linkTo, linkLabel }: { eyebrow: string; title: string; linkTo?: string; linkLabel?: string }) {
